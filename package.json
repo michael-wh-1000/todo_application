@@ -3,6 +3,13 @@
     "concurrently": "^9.2.1"
   },
   "scripts": {
-    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && node server.js\""
-  }
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && node server.js\"",
+    "install": ""
+  },
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
 }
