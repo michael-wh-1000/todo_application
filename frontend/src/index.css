@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --mutedBackground: #848484;
+  --textColor: #080808;
+  --mutedTextColor: #121212;
+  --accentColor: #559ce7;
+  --accentColor2: #4386cd;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-mutedBackground: var(--mutedBackground);
+  --color-textColor: var(--textColor);
+  --color-mutedTextColor: var(--mutedTextColor);
+  --color-accentColor: var(--accentColor);
+  --color-accentColor2: var(--accentColor2);
+}
+
+body {
+  background-color: var(--background);
+}
