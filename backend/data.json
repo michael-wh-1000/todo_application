@@ -17,6 +17,11 @@
   {
     "id": 9738,
     "text": "Learn linux",
+    "completed": true
+  },
+  {
+    "id": 9932,
+    "text": "Withdraw money from bank",
     "completed": false
   }
 ]
